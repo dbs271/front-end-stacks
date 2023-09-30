@@ -1,12 +1,17 @@
 import React from "react";
 import styled from "styled-components";
+import { useTodoState } from "../TodoContext";
+import TimeHelper from "../util/timehelper";
 
 const TodoHead = () => {
+  const todos = useTodoState();
+  const undoneTasks = todos.filter((todo) => !todo.done);
+  const { NowDate, CurrentDayWeek } = TimeHelper();
   return (
     <S.HeadBlock>
-      <S.Title>2023년 9월 24일</S.Title>
-      <S.Day>일요일</S.Day>
-      <S.TasksLeft>할 일 2개 남음</S.TasksLeft>
+      <S.Title>{NowDate}</S.Title>
+      <S.Day>{CurrentDayWeek}</S.Day>
+      <S.TasksLeft>할 일 {undoneTasks.length}</S.TasksLeft>
     </S.HeadBlock>
   );
 };
