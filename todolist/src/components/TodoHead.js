@@ -6,12 +6,13 @@ import TimeHelper from "../util/timehelper";
 const TodoHead = () => {
   const todos = useTodoState();
   const undoneTasks = todos.filter((todo) => !todo.done);
-  const { NowDate, CurrentDayWeek } = TimeHelper();
+  const { dateString, dayName } = TimeHelper();
+
   return (
     <S.HeadBlock>
-      <S.Title>{NowDate}</S.Title>
-      <S.Day>{CurrentDayWeek}</S.Day>
-      <S.TasksLeft>할 일 {undoneTasks.length}</S.TasksLeft>
+      <S.Title>{dateString}</S.Title>
+      <S.Day>{dayName}</S.Day>
+      <S.TasksLeft>할 일 {undoneTasks.length}개 남음</S.TasksLeft>
     </S.HeadBlock>
   );
 };
