@@ -2,16 +2,42 @@ import React from "react";
 import { useState } from "react";
 import styled, { css } from "styled-components";
 import { MdAdd } from "react-icons/md";
+import { useTodoDispatch, useTodoNextId } from "../TodoContext";
 
 const TodoCreate = () => {
   const [open, setOpen] = useState(false);
+  const [value, setValue] = useState("");
+
+  const dispatch = useTodoDispatch();
+  const nextId = useTodoNextId();
+
   const onToggle = () => setOpen(!open);
+  const onChange = (e) => setValue(e.target.value);
+  const onSubmit = (e) => {
+    e.preventDefault(); // 새로고침 방지
+    dispatch({
+      type: "CREATE",
+      todo: {
+        id: nextId.current,
+        text: value,
+        done: false,
+      },
+    });
+    setValue("");
+    setOpen(false);
+    nextId.current += 1;
+  };
   return (
     <>
       {open && (
         <S.InsertFromPosition>
-          <S.InsertForm>
-            <S.Input autoFocus placeholder="할 일을 입략하세요." />
+          <S.InsertForm onSubmit={onSubmit}>
+            <S.Input
+              autoFocus
+              placeholder="할 일을 입략하세요."
+              onChange={onChange}
+              value={value}
+            />
           </S.InsertForm>
         </S.InsertFromPosition>
       )}
@@ -22,7 +48,7 @@ const TodoCreate = () => {
   );
 };
 
-export default TodoCreate;
+export default React.memo(TodoCreate);
 
 export const S = {};
 
