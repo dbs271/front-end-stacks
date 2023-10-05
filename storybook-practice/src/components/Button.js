@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 
 const Button = ({ label, backgroundColor, size, handleClick }) => {
   let scale = 1;
@@ -10,11 +11,18 @@ const Button = ({ label, backgroundColor, size, handleClick }) => {
     border: "none",
     color: "white",
   };
+
   return (
-    <button onClick={handleClick} style={style}>
+    <S.Button onClick={handleClick} style={style}>
       {label}
-    </button>
+    </S.Button>
   );
 };
 
 export default Button;
+
+export const S = {};
+
+S.Button = styled.button`
+  cursor: pointer;
+`;
