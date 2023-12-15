@@ -29,10 +29,3 @@ SmButton.args = {
   backgroundColor: "gray",
   size: "sm",
 };
-
-export const LgButton = Template.bind({});
-LgButton.args = {
-  label: "Large Button",
-  backgroundColor: "black",
-  size: "lg",
-};
