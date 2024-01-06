@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="main" action="">
+      <table class="table">
+        <tr class="row table-header">
+          <td class="left">카테고리</td>
+          <td class="right">Java</td>
+        </tr>
+        <tr class="row table-header">
+          <td class="left">등록 일시</td>
+          <td class="right">2023.11.24 16:11</td>
+        </tr>
+        <tr class="row table-header">
+          <td class="left">수정 일시</td>
+          <td class="right">2023.11.24 16:11</td>
+        </tr>
+        <tr class="row table-header">
+          <td class="left">조회수</td>
+          <td class="right">13</td>
+        </tr>
+        <tr class="row table-header">
+          <td class="left">작성자</td>
+          <td class="right"><input class="input" value="peter" /></td>
+        </tr>
+        <tr class="row table-header">
+          <td class="left">비밀번호</td>
+          <td class="right">
+            <input class="input" placeholder="비밀번호" />
+          </td>
+        </tr>
+        <tr class="row table-header">
+          <td class="left">제목</td>
+          <td class="right">
+            <input class="input title-input" value="title" />
+          </td>
+        </tr>
+        <tr class="row content">
+          <td class="left">내용</td>
+          <td class="right">
+            <textarea class="input content-input"></textarea>
+          </td>
+        </tr>
+        <tr class="row attachment">
+          <td class="left">파일 첨부</td>
+          <td class="right att-table">
+            <div class="att">
+              <input class="input att-input" />
+              <button class="att-btn">파일 찾기</button>
+            </div>
+            <div class="att">
+              <input class="input att-input" />
+              <button class="att-btn">파일 찾기</button>
+            </div>
+            <div class="att">
+              <input class="input att-input" />
+              <button class="att-btn">파일 찾기</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="cancel-save">
+        <button class="btn cancel">취소</button>
+        <button class="btn save">저장</button>
+      </div>
+    </form>
+  </body>
+</html>
