@@ -1,10 +1,14 @@
-import ChartExample from "./components/Chart";
+import GradientTest from "./components/GradientTest";
+import Main from "./components/Main";
+import MainImage from "./components/MainImage";
 
 function App() {
   return (
-    <div style={{ width: "500px" }}>
-      <ChartExample />
-    </div>
+    <>
+      <MainImage />
+      <Main />
+      <GradientTest />
+    </>
   );
 }
 

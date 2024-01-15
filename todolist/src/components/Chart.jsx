@@ -48,7 +48,7 @@ const ChartExample = () => {
   return (
     <div>
       <h2>React Chart</h2>
-      <Bubble data={data} />
+      <PolarArea data={data} />
     </div>
   );
 };
