@@ -1,0 +1,1365 @@
+/* 메인화면 */
+
+position: relative;
+width: 1924px;
+height: 5215px;
+
+
+
+/* 메인 화면 하단 */
+
+position: absolute;
+width: 1915px;
+height: 1024px;
+left: 2px;
+top: 3167px;
+
+background: #000000;
+
+
+/* 메인 화면 중앙 2 */
+
+position: absolute;
+width: 1920px;
+height: 1024px;
+left: 0px;
+top: 2046px;
+
+background: #000000;
+
+
+/* 메인화면 중앙 1 */
+
+position: absolute;
+width: 1920px;
+height: 1024px;
+left: 0px;
+top: 1022px;
+
+background: #000000;
+
+
+/* 메인화면 상단 */
+
+position: absolute;
+width: 1920px;
+height: 1024px;
+left: 1px;
+top: -2px;
+
+background: #FFFFFF;
+
+
+/* 게임 대표 영상 (미정) */
+
+position: absolute;
+width: 1920px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* 영상 위 이미지 */
+
+position: absolute;
+width: 1920px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(216, 216, 216, 0.765766) 8.5%, rgba(56, 55, 55, 0.49) 43.5%, #000000 99.99%);
+
+
+/* 영상 위 이미지 */
+
+position: absolute;
+width: 1920px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(216, 216, 216, 0.765766) 8.5%, rgba(56, 55, 55, 0.49) 43.5%, #000000 99.99%);
+
+
+/* Logo */
+
+position: absolute;
+width: 298px;
+height: 119px;
+left: 803px;
+top: 468px;
+
+font-family: 'Rubik Glitch';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 118px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* aimLogo */
+
+position: absolute;
+width: 74px;
+height: 74px;
+left: 1086px;
+top: 431px;
+
+background: url(.png);
+
+
+/* 더 나은 게임 플레이를 위해 */
+
+position: absolute;
+width: 400px;
+height: 41px;
+left: 760px;
+top: 613px;
+
+font-family: 'Rubik Glitch';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 정보 */
+
+position: absolute;
+width: 1920px;
+height: 333px;
+left: 2px;
+top: 3858px;
+
+background: linear-gradient(90deg, #3F3F3F 0%, #000000 29.76%, #000000 69.97%, #3F3F3F 100%);
+
+
+/* Discord New */
+
+position: absolute;
+width: 83px;
+height: 83px;
+left: 919px;
+top: 117px;
+
+background: url(.png);
+
+
+/* 소셜 서비스 */
+
+position: absolute;
+width: 228px;
+height: 55px;
+left: 846px;
+top: 62px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* 버그 및 문의 : xxxxXXXX@gmail.com */
+
+position: absolute;
+width: 342px;
+height: 24px;
+left: 789px;
+top: 233px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #9D9D9D;
+
+
+
+/* 개발자 정보 : 뭘 적어야할까요...? */
+
+position: absolute;
+width: 273px;
+height: 24px;
+left: 824px;
+top: 270px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #9D9D9D;
+
+
+
+
+
+
+/* 게임 설명 1 */
+
+position: absolute;
+width: 1920px;
+height: 840px;
+left: 0px;
+top: 1949px;
+
+
+
+/* 배경 */
+
+position: absolute;
+width: 1920px;
+height: 812px;
+left: 0px;
+top: 28px;
+
+background: url(image.png);
+
+
+/* image 1 */
+
+position: absolute;
+width: 808px;
+height: 453px;
+left: 56px;
+top: 193px;
+
+background: url(image.png);
+
+
+/* 설명 문구 */
+
+position: absolute;
+width: 867px;
+height: 181px;
+left: 960px;
+top: 262px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+
+
+/* 게임 하러가기 버튼 */
+
+position: absolute;
+width: 470px;
+height: 111px;
+left: 1158px;
+top: 495px;
+
+
+
+/* Button */
+
+position: absolute;
+width: 471px;
+height: 111px;
+left: 0px;
+top: 0px;
+
+background: #FF5E4B;
+
+
+/* 게임 하기 */
+
+position: absolute;
+width: 204px;
+height: 62px;
+left: 133px;
+top: 25px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 62px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 게임 설명 2 */
+
+position: absolute;
+width: 1920px;
+height: 718px;
+left: 0px;
+top: 2647px;
+
+
+
+/* image 3 */
+
+position: absolute;
+width: 1920px;
+height: 718px;
+left: 0px;
+top: 0px;
+
+background: url(bg_orange.png);
+
+
+/* image 1 */
+
+position: absolute;
+width: 808px;
+height: 453px;
+left: 1054px;
+top: 124px;
+
+background: url(image.png);
+
+
+/* 설명 문구 */
+
+position: absolute;
+width: 867px;
+height: 119px;
+left: 93px;
+top: 220px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+
+
+/* 게임 하러가기 버튼 */
+
+position: absolute;
+width: 471px;
+height: 111px;
+left: 291px;
+top: 387px;
+
+
+
+/* Button */
+
+position: absolute;
+width: 471px;
+height: 111px;
+left: 0px;
+top: 0px;
+
+background: #35ECE5;
+
+
+/* 게임 하기 */
+
+position: absolute;
+width: 204px;
+height: 62px;
+left: 133px;
+top: 25px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 62px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 게임 설명 3 */
+
+position: absolute;
+width: 1920px;
+height: 628px;
+left: 0px;
+top: 3230px;
+
+
+
+/* image 3 */
+
+position: absolute;
+width: 1920px;
+height: 628px;
+left: 0px;
+top: 0px;
+
+background: url(bg_white.png);
+
+
+/* 설명 문구 */
+
+position: absolute;
+width: 1632px;
+height: 230px;
+left: 123px;
+top: 165px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+letter-spacing: 0.03em;
+
+background: linear-gradient(180deg, #000000 0%, #35ECE5 0.01%, #000000 54.01%, #FF3A23 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+
+/* 게임 하러가기 버튼 */
+
+position: absolute;
+width: 679px;
+height: 112px;
+left: 621px;
+top: 491px;
+
+
+
+/* Button */
+
+position: absolute;
+width: 679px;
+height: 112px;
+left: 0px;
+top: 0px;
+
+background: #FF5E4B;
+
+
+/* 커스텀 하러가기 */
+
+position: absolute;
+width: 348px;
+height: 62px;
+left: 165px;
+top: 25px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 62px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 마이 데이터 */
+
+position: absolute;
+width: 1548px;
+height: 420px;
+left: 2px;
+top: 1230px;
+
+border-radius: 0px 60px 60px 0px;
+
+
+/* 배경 */
+
+position: absolute;
+width: 1548px;
+height: 420px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #1E1E1E 0%, #1E1E1E 67.74%, #0E4240 100%);
+
+
+/* 프로필 */
+
+position: absolute;
+width: 212px;
+height: 254px;
+left: 116px;
+top: 71px;
+
+
+
+/* Thumbs Up */
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 150px;
+top: 218px;
+
+background: url(.png);
+
+
+/* 12345 */
+
+position: absolute;
+width: 95px;
+height: 37px;
+left: 30px;
+top: 217px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 프로필 */
+
+position: absolute;
+width: 212px;
+height: 203px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+/* Customer */
+
+position: absolute;
+width: 121px;
+height: 121px;
+left: 46px;
+top: 41px;
+
+background: url(.png);
+
+
+/* First Place Ribbon */
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 125px;
+top: 112px;
+
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 41px;
+height: 416px;
+left: 1507px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 0px 60px 60px 0px;
+
+
+/* Forward */
+
+position: absolute;
+width: 39px;
+height: 39px;
+left: 1509px;
+top: 193px;
+
+background: url(.png);
+
+
+/* graph 1 */
+
+position: absolute;
+width: 506px;
+height: 324px;
+left: 957px;
+top: 19px;
+
+background: url(graph.png);
+
+
+/* 순위 변동률 */
+
+position: absolute;
+width: 110px;
+height: 24px;
+left: 966px;
+top: 47px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 랭킹 */
+
+position: absolute;
+width: 231px;
+height: 278px;
+left: 360px;
+top: 59px;
+
+
+
+/* 184383점 */
+
+position: absolute;
+width: 98px;
+height: 25px;
+left: 66px;
+top: 247px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 12357 위 */
+
+position: absolute;
+width: 172px;
+height: 50px;
+left: 25px;
+top: 196px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 티어(미정) */
+
+position: absolute;
+width: 157px;
+height: 193px;
+left: 37px;
+top: -6px;
+
+background: url(xldj.png);
+
+
+/* 데이터 List */
+
+position: absolute;
+width: 246px;
+height: 260px;
+left: 623px;
+top: 78px;
+
+
+
+/* 헤드샷 */
+
+position: absolute;
+width: 115px;
+height: 29px;
+left: 0px;
+top: 108px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 3.2 ms */
+
+position: absolute;
+width: 93px;
+height: 29px;
+left: 153px;
+top: 177px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 반응 속도 */
+
+position: absolute;
+width: 115px;
+height: 29px;
+left: 0px;
+top: 177px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 30.5 % */
+
+position: absolute;
+width: 93px;
+height: 29px;
+left: 153px;
+top: 108px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 95.5 % */
+
+position: absolute;
+width: 93px;
+height: 29px;
+left: 153px;
+top: 41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 명중률 */
+
+position: absolute;
+width: 115px;
+height: 29px;
+left: 0px;
+top: 41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 1등 데이터 */
+
+position: absolute;
+width: 950px;
+height: 420px;
+left: 0px;
+top: 808px;
+
+border-radius: 0px 60px 60px 0px;
+
+
+/* 배경 */
+
+position: absolute;
+width: 950px;
+height: 420px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, #55170F 100%);
+
+
+/* 프로필 */
+
+position: absolute;
+width: 212px;
+height: 254px;
+left: 116px;
+top: 71px;
+
+
+
+/* Thumbs Up */
+
+position: absolute;
+width: 35px;
+height: 35px;
+left: 150px;
+top: 218px;
+
+background: url(.png);
+
+
+/* 12345 */
+
+position: absolute;
+width: 95px;
+height: 37px;
+left: 30px;
+top: 217px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 프로필 */
+
+position: absolute;
+width: 212px;
+height: 203px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+/* Customer */
+
+position: absolute;
+width: 121px;
+height: 121px;
+left: 46px;
+top: 41px;
+
+background: url(.png);
+
+
+/* First Place Ribbon */
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 125px;
+top: 112px;
+
+background: url(.png);
+
+
+/* 랭킹 */
+
+position: absolute;
+width: 231px;
+height: 278px;
+left: 360px;
+top: 59px;
+
+
+
+/* 13084383점 */
+
+position: absolute;
+width: 126px;
+height: 25px;
+left: 52px;
+top: 247px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 1 위 */
+
+position: absolute;
+width: 66px;
+height: 50px;
+left: 78px;
+top: 196px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFC700;
+
+
+
+/* 티어(미정) */
+
+position: absolute;
+width: 157px;
+height: 193px;
+left: 37px;
+top: -6px;
+
+background: url(xldj.png);
+
+
+/* 데이터 List */
+
+position: absolute;
+width: 246px;
+height: 260px;
+left: 614px;
+top: 72px;
+
+
+
+/* 헤드샷 */
+
+position: absolute;
+width: 115px;
+height: 29px;
+left: 0px;
+top: 108px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 3.2 ms */
+
+position: absolute;
+width: 93px;
+height: 29px;
+left: 153px;
+top: 177px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 반응 속도 */
+
+position: absolute;
+width: 115px;
+height: 29px;
+left: 0px;
+top: 177px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 30.5 % */
+
+position: absolute;
+width: 93px;
+height: 29px;
+left: 153px;
+top: 108px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 95.5 % */
+
+position: absolute;
+width: 93px;
+height: 29px;
+left: 153px;
+top: 41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 명중률 */
+
+position: absolute;
+width: 115px;
+height: 29px;
+left: 0px;
+top: 41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 41px;
+height: 416px;
+left: 909px;
+top: 4px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 0px 60px 60px 0px;
+
+
+/* Forward */
+
+position: absolute;
+width: 39px;
+height: 39px;
+left: 911px;
+top: 193px;
+
+background: url(.png);
+
+
+/* 상단 메뉴 */
+
+position: absolute;
+width: 1836px;
+height: 84px;
+left: 44px;
+top: 74px;
+
+
+
+/* 상단 배경 */
+
+position: absolute;
+width: 1832px;
+height: 80px;
+left: 4px;
+top: 4px;
+
+background: rgba(255, 255, 255, 0.6);
+border-radius: 20px;
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 103px;
+height: 80px;
+left: 4px;
+top: 4px;
+
+background: #FFFFFF;
+border-radius: 20px 0px 0px 20px;
+
+
+/* 게임 */
+
+position: absolute;
+width: 56px;
+height: 36px;
+left: 153px;
+top: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+
+
+/* 마이 데이터 */
+
+position: absolute;
+width: 147px;
+height: 36px;
+left: 262px;
+top: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+
+
+/* 마이 페이지 */
+
+position: absolute;
+width: 147px;
+height: 36px;
+left: 1303px;
+top: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+
+
+/* 마이 페이지 */
+
+position: absolute;
+width: 83px;
+height: 36px;
+left: 1502px;
+top: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+
+
+/* 마이 페이지 */
+
+position: absolute;
+width: 111px;
+height: 36px;
+left: 1637px;
+top: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+
+
+/* 정보 */
+
+position: absolute;
+width: 56px;
+height: 36px;
+left: 461px;
+top: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+
+
+/* aim logo */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 32px;
+top: 19px;
+
+background: url(.png);
+
+
+/* Discord Btn */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1201px;
+top: 19px;
+
+background: url(.png);
+
+
+/* 분석 버튼 */
+
+position: absolute;
+width: 281px;
+height: 75px;
+left: 1597px;
+top: 1563px;
+
+
+
+/* Button */
+
+position: absolute;
+width: 281px;
+height: 75px;
+left: 0px;
+top: 0px;
+
+background: #FF5E4B;
+border-radius: 14px;
+
+
+/* 분석 보러가기 */
+
+position: absolute;
+width: 180px;
+height: 37px;
+left: 50px;
+top: 19px;
+
+font-family: 'Rowdies';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+

@@ -21,7 +21,7 @@ const Button = ({ label, backgroundColor, size, handleClick }) => {
 
 export default Button;
 
-export const S = {};
+const S = {};
 
 S.Button = styled.button`
   cursor: pointer;
