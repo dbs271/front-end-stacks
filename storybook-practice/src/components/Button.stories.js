@@ -3,6 +3,7 @@ import Button from "./Button";
 
 export default {
   title: "Button",
+  tags: ["autodocs"],
   component: Button,
   argTypes: { handleClick: { action: "clicked" } },
 };
