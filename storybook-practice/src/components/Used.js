@@ -19,7 +19,6 @@ const Used = () => {
         fontSize={"18px"}
         label={"회원가입"}
       />
-      {/* <Input placeholder="small" size="md" /> */}
     </div>
   );
 };
