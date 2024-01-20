@@ -41,6 +41,7 @@ const data = {
         "rgba(255, 159, 64, 1)",
       ],
       borderWidth: 1,
+      borderDash: [2, 2],
     },
   ],
 };
@@ -48,7 +49,7 @@ const ChartExample = () => {
   return (
     <div>
       <h2>React Chart</h2>
-      <PolarArea data={data} />
+      <Line data={data} />
     </div>
   );
 };
