@@ -1,10 +1,17 @@
 import styled from "styled-components";
-import Login from "./components/Login";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./pages/Main";
+import Auto from "./pages/Auto";
 
 function App() {
   return (
     <S.Wrapper>
-      <Login />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />}></Route>
+          <Route path="/auth" element={<Auto />}></Route>
+        </Routes>
+      </BrowserRouter>
     </S.Wrapper>
   );
 }
