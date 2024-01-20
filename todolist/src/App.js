@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
-import Auto from "./pages/Auto";
+import Auth from "./pages/Auth";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />}></Route>
-          <Route path="/auth" element={<Auto />}></Route>
+          <Route path="/auth" element={<Auth />}></Route>
         </Routes>
       </BrowserRouter>
     </S.Wrapper>
