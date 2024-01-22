@@ -38,3 +38,10 @@ export type AddressWithOutZip = Omit<Address, "zipCode">;
 
 // 타입에 하나의 값만 가져오고 싶을 때는 Pick<> 사용
 export type RestaurantOnlyCategory = Pick<Restaurant, "category">;
+
+// api 데이터를 받아올 때?
+export type ApiResponse<T> = {
+  data: T[];
+  totalPage: number;
+  page: number;
+};
