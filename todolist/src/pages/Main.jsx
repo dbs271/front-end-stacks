@@ -4,8 +4,10 @@ import Login from "../components/Login";
 
 const Main = () => {
   return (
-    <div>
-      <Login />
+    <div style={{ display: "flex", gap: "10px" }}>
+      <div>
+        <Login />
+      </div>
       <div>
         <ChartExample />
       </div>

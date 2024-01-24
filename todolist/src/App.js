@@ -21,7 +21,7 @@ export default App;
 const S = {};
 
 S.Wrapper = styled.div`
-  height: 100px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
