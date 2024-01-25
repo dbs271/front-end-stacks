@@ -1,4 +1,5 @@
 import React from "react";
+import kakao_login_large_narrow from "../assets/img/ko/kakao_login_large_narrow.png";
 
 const Login = () => {
   const API_KEY = process.env.REACT_APP_REST_API_KEY;
@@ -16,7 +17,12 @@ const Login = () => {
 
   return (
     <>
-      <button onClick={handleLogin}>카카오 로그인</button>
+      <button
+        onClick={handleLogin}
+        style={{ border: 0, backgroundColor: "transparent" }}
+      >
+        <img src={kakao_login_large_narrow} alt="kakao login" />
+      </button>
     </>
   );
 };
