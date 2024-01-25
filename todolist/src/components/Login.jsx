@@ -1,8 +1,8 @@
 import React from "react";
 
 const Login = () => {
-  const API_KEY = "c561738484f11476f0419c707c1a6fca";
-  const REDIRECT_URI = "http://localhost:3000/auth";
+  const API_KEY = process.env.REACT_APP_REST_API_KEY;
+  const REDIRECT_URI = process.env.REACT_APP_REDIRECT_URI;
 
   const KAKAO_URL = `https://kauth.kakao.com/oauth/authorize?client_id=${API_KEY}&redirect_uri=${REDIRECT_URI}&response_type=code`;
 
