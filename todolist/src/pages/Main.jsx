@@ -8,7 +8,7 @@ const Main = () => {
     <div style={{ display: "flex", gap: "10px" }}>
       <div>
         <Login />
-        <Kakao />
+        {/* <Kakao /> */}
       </div>
       <div>
         <ChartExample />
