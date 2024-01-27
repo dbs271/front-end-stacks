@@ -33,6 +33,7 @@ import kakao_login_large_narrow from "../assets/img/ko/kakao_login_large_narrow.
 
 const Kakao = () => {
   const kakaoKey = process.env.REACT_APP_JAVASCRIPT_KEY;
+  const REDIRECT_URI = process.env.REACT_APP_REDIRECT_URI;
   const { Kakao } = window;
   useEffect(() => {
     if (!Kakao.isInitialized()) {
@@ -42,7 +43,23 @@ const Kakao = () => {
     console.log(Kakao.isInitialized());
   }, []);
 
-  return <img src={kakao_login_large_narrow} alt="kakao login" />;
+  const KakaoLogin = () => {
+    Kakao.Auth.authorize({
+      redirectUri: REDIRECT_URI,
+      serviceTerms: "profile_image, profile_nickname",
+    });
+  };
+  const code = new URL(window.location.href).searchParams.get("code");
+
+  console.log(code);
+
+  return (
+    <img
+      src={kakao_login_large_narrow}
+      alt="kakao login"
+      onClick={KakaoLogin}
+    />
+  );
 };
 
 export default Kakao;
