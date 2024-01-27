@@ -33,18 +33,14 @@ import kakao_login_large_narrow from "../assets/img/ko/kakao_login_large_narrow.
 
 const Kakao = () => {
   const kakaoKey = process.env.REACT_APP_JAVASCRIPT_KEY;
+  const { Kakao } = window;
   useEffect(() => {
-    const initializeKakaoSDK = async () => {
-      try {
-        await window.Kakao.init(kakaoKey);
-        console.log(window.Kakao.isInitialized()); // SDK 초기화 확인
-      } catch (error) {
-        console.log(error);
-      }
-    };
-
-    initializeKakaoSDK(); // 컴포넌트가 렌더링될 때 SDK 초기화
-  }, [kakaoKey]);
+    if (!Kakao.isInitialized()) {
+      //SDK 초기화 여부 판단 함수
+      Kakao.init(kakaoKey); //SDK 초기화 함수
+    }
+    console.log(Kakao.isInitialized());
+  }, []);
 
   return <img src={kakao_login_large_narrow} alt="kakao login" />;
 };
