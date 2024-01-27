@@ -7,8 +7,8 @@ const Main = () => {
   return (
     <div style={{ display: "flex", gap: "10px" }}>
       <div>
-        <Login />
-        {/* <Kakao /> */}
+        {/* <Login /> */}
+        <Kakao />
       </div>
       <div>
         <ChartExample />
