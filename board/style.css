@@ -118,108 +118,47 @@ table {
 }
 
 button {
-  border: 1px solid #000;
-  background-color: transparent;
+  border: none;
 }
 
 /* --- reset --- */
 
 .main {
-  height: 100vh;
-  margin: 120px 120px;
-}
-
-.table {
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
 }
 
-.table-header {
+.button {
+  width: 160px;
   height: 45px;
+  left: 0;
+  top: 0;
+  border-radius: 14px;
+  background-image: linear-gradient(
+      180deg,
+      #78e9bf 0%,
+      #68bbcf 50.46%,
+      #5990de 100%
+    ),
+    linear-gradient(30deg, #7aeebe 0%, #588cdf 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: 6px solid transparent;
 }
 
-.content {
-  height: calc(100% - 150px - 80px * 4);
-}
-
-.attachment {
-  height: 150px;
-  border-bottom: 1px solid #000;
-}
-
-.row {
-  display: flex;
-  align-items: center;
-  border-top: 1px solid #000;
-}
-
-.left {
-  padding-left: 30px;
-  background-color: #ccc;
-  width: 120px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.right {
-  padding-left: 30px;
+.input-box {
+  width: 500px;
+  height: 70px;
 }
 
 .input {
-  width: 200px;
-  height: 20px;
-  outline: none;
-  padding-left: 5px;
+  width: 100%;
+  height: 45px;
 }
 
-.title-input {
-  width: 750px;
-}
-
-.content-input {
-  width: 750px;
-  height: 200px;
-  padding: 10px;
-}
-
-.att {
-  margin-bottom: 10px;
-}
-.att-table {
-  display: flex;
-  flex-direction: column;
-}
-
-.att-input {
-  width: 400px;
-}
-
-.att-btn {
-  width: 80px;
-  height: 25px;
-  cursor: pointer;
-}
-
-.att-btn:hover {
-  background-color: #ccc;
-}
-
-.cancel-save {
-  margin-top: 100px;
-  height: 120px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.btn {
-  width: 120px;
-  height: 30px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #000;
-  color: #fff;
-  transition: 0.2s;
-}
+/* 비밀번호 확인란 */
