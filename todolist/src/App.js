@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
 import Auth from "./pages/Auth";
 import Validation from "./components/Validation";
+import CalHeat from "./components/CalHeat";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
     //   </BrowserRouter>
     // </S.Wrapper>
     <S.Container>
-      <Validation />
+      {/* <Validation /> */}
+      <CalHeat />
     </S.Container>
   );
 }
