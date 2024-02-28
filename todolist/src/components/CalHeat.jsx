@@ -1,7 +1,6 @@
 import React from "react";
 import CalHeatmap from "cal-heatmap";
 
-// Optionally import the CSS
 import "cal-heatmap/cal-heatmap.css";
 
 const CalHeat = () => {

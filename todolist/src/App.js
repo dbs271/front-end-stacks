@@ -16,7 +16,6 @@ function App() {
     //   </BrowserRouter>
     // </S.Wrapper>
     <S.Container>
-      {/* <Validation /> */}
       <CalHeat />
     </S.Container>
   );
