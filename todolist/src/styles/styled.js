@@ -27,6 +27,7 @@ export const Body = styled.div`
 export const Weeks = styled.div`
   display: inline-flex;
   flex-direction: column;
+  width: 30px;
 `;
 
 export const Weeky = styled.div`
@@ -37,4 +38,16 @@ export const Weeky = styled.div`
   margin: 2px;
   text-align: center;
   vertical-align: middle;
+`;
+
+export const Months = styled.div`
+  display: flex;
+  padding-left: 30px;
+`;
+
+export const Monthy = styled.div`
+  width: 10px;
+  margin: 2px;
+  border: 1px solid transparent;
+  font-size: 10px;
 `;
