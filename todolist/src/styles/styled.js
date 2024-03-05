@@ -18,6 +18,10 @@ export const Celly = styled.div`
   margin: 2px;
   border-radius: 2px;
   background-color: rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
 `;
 
 export const Body = styled.div`
@@ -50,4 +54,19 @@ export const Monthy = styled.div`
   margin: 2px;
   border: 1px solid transparent;
   font-size: 10px;
+
+  .Jan ~ &.Jan,
+  .Feb ~ &.Feb,
+  .Mar ~ &.Mar,
+  .Apr ~ &.Apr,
+  .May ~ &.May,
+  .Jun ~ &.Jun,
+  .Jul ~ &.Jul,
+  .Aug ~ &.Aug,
+  .Sep ~ &.Sep,
+  .Oct ~ &.Oct,
+  .Nov ~ &.Nov,
+  .Dec ~ &.Dec {
+    visibility: hidden;
+  }
 `;
